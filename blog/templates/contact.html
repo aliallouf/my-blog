@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Create</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/form.css')}}">
+</head>
+<body>
+	<div class="container">
+		<h1>Form Create</h1>
+		<form action="" method="POST">
+			<fieldset>
+				<legend>Log In</legend>
+				<div class="form-group">
+					<label for="name">User Name:</label>
+					<input type="text" id="name" name="name" required placeholder="Please Enter Your Name">
+				</div>
+				<div class="form-group">
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password" required placeholder="Please Enter Your Password">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required placeholder="Please Enter Your Email">
+				</div>
+				<div class="form-group">
+					<label for="gender">Gender:</label>
+					<div class="radio-group">
+						<input type="radio" id="male" name="gender" value="male">
+						<label for="male">Male</label>
+						<input type="radio" id="female" name="gender" value="female">
+						<label for="female">Female</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="language">Language:</label>
+					<div class="checkbox-group">
+						<input type="checkbox" id="english" name="language" value="English">
+						<label for="english">English</label>
+						<input type="checkbox" id="french" name="language" value="French">
+						<label for="french">French</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="comments">Your Comments:</label>
+					<textarea id="comments" name="comments" cols="30" rows="5" placeholder="Enter Your Comments"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Log In">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

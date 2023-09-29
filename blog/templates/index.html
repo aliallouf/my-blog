@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Responsive Web Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md my-navbar navbar-dark">		
+		<a class="navbar-brand" href="#">MIMO Information</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href={{url_for('about')}}>About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href={{url_for('contact')}}>Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="static/css/images/5G.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-6">
+				<h1>Welcome to My Website</h1>
+				<p>MIMO (Multiple-Input Multiple-Output) antennas are used in wireless communication systems to improve the performance and reliability of the wireless link..</p>
+				<button class="btn btn-primary">Learn More</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Section 1</h2>
+				<p>MIMO (Multiple-Input Multiple-Output) antennas are used in wireless communication systems to improve the performance and reliability of the wireless link. 
+
+A MIMO antenna system uses multiple antennas on both the transmitting and receiving ends of a wireless link to improve the signal quality and increase the data transfer rate. By using multiple antennas, MIMO can take advantage of multipath propagation, which is the phenomenon whereby radio signals are reflected, refracted, and scattered by obstacles in the environment. By capturing the signals from multiple paths, MIMO can combine them to improve the signal quality and reduce interference.
+
+MIMO antennas are typically used in Wi-Fi networks, cellular networks, and other wireless communication systems. MIMO technology can be implemented using various antenna configurations, such as multiple antennas on a single device, multiple devices with multiple antennas, or a combination of both.
+
+MIMO antennas can provide significant improvements in data transfer rates and overall performance, compared to traditional single-antenna systems. They can also help to reduce interference and improve the reliability of wireless communication systems..</p>
+			</div>
+			<div class="col-md-4">
+				<h2>Section 2</h2>
+				<p>MIMO (Multiple-Input Multiple-Output) antennas are used in wireless communication systems to improve the performance and reliability of the wireless link. 
+
+A MIMO antenna system uses multiple antennas on both the transmitting and receiving ends of a wireless link to improve the signal quality and increase the data transfer rate. By using multiple antennas, MIMO can take advantage of multipath propagation, which is the phenomenon whereby radio signals are reflected, refracted, and scattered by obstacles in the environment. By capturing the signals from multiple paths, MIMO can combine them to improve the signal quality and reduce interference.
+
+MIMO antennas are typically used in Wi-Fi networks, cellular networks, and other wireless communication systems. MIMO technology can be implemented using various antenna configurations, such as multiple antennas on a single device, multiple devices with multiple antennas, or a combination of both.
+
+MIMO antennas can provide significant improvements in data transfer rates and overall performance, compared to traditional single-antenna systems. They can also help to reduce interference and improve the reliability of wireless communication systems..</p>
+			</div>
+			<div class="col-md-4">
+				<h2>Section 3</h2>
+				<p>MIMO (Multiple-Input Multiple-Output) antennas are used in wireless communication systems to improve the performance and reliability of the wireless link. 
+
+A MIMO antenna system uses multiple antennas on both the transmitting and receiving ends of a wireless link to improve the signal quality and increase the data transfer rate. By using multiple antennas, MIMO can take advantage of multipath propagation, which is the phenomenon whereby radio signals are reflected, refracted, and scattered by obstacles in the environment. By capturing the signals from multiple paths, MIMO can combine them to improve the signal quality and reduce interference.
+
+MIMO antennas are typically used in Wi-Fi networks, cellular networks, and other wireless communication systems. MIMO technology can be implemented using various antenna configurations, such as multiple antennas on a single device, multiple devices with multiple antennas, or a combination of both.
+
+MIMO antennas can provide significant improvements in data transfer rates and overall performance, compared to traditional single-antenna systems. They can also help to reduce interference and improve the reliability of wireless communication systems..</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
